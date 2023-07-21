@@ -1,14 +1,17 @@
 import { useState } from "react";
 import "./output.css";
 import Nav from "./components/nav/Nav";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="bg-[url(/assets/mario.jpg)] h-[80vh]">
-      <Nav />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
