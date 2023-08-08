@@ -6,10 +6,18 @@
 
 .hero-section-movies {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .main-section-movies {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.hero__movie__card {
+  transition: transform 0.3s ease-in;
+}
+
+.hero__movie__card:hover {
+  transform: translateY(30px);
 }

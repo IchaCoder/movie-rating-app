@@ -8,7 +8,7 @@ import {
 export default function Footer() {
   return (
     <footer className="mt-20">
-      <div className="flex justify-center gap-12 mb-2">
+      <div className="flex justify-center gap-12 mb-4 flex-wrap">
         <div>Get the Trailers app</div>
         <div>Help</div>
         <div>Site</div>
@@ -16,7 +16,7 @@ export default function Footer() {
         <div>TheTrailersPro</div>
         <div>Box Office Mojo Developer</div>
       </div>
-      <div className="flex justify-center gap-12">
+      <div className="flex justify-center gap-12 flex-wrap">
         TV Room C Privacy Your Ads Privacy Choices
         <div>Advertising</div>
         <div>Jobs</div>

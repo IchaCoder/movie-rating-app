@@ -6,7 +6,7 @@ const movies = [
     director: "Christopher Nolan",
     star_cast: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
     ratings: 4.7,
-    img: "/assets/age_of_ultron.jfif"
+    img: "/assets/titanic.webp"
   },
   {
     name: "The Shawshank Redemption",
@@ -14,7 +14,7 @@ const movies = [
     director: "Frank Darabont",
     star_cast: ["Tim Robbins", "Morgan Freeman"],
     ratings: 4.9,
-    img: "/assets/nimona.jfif"
+    img: "/assets/transformers.webp"
   },
   {
     name: "Interstellar",
@@ -23,7 +23,7 @@ const movies = [
     director: "Christopher Nolan",
     star_cast: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
     ratings: 4.8,
-    img: "/assets/big_hero.jfif"
+    img: "/assets/gladiator.webp"
   },
   {
     name: "The Godfather",
@@ -32,7 +32,7 @@ const movies = [
     director: "Francis Ford Coppola",
     star_cast: ["Marlon Brando", "Al Pacino", "James Caan"],
     ratings: 4.9,
-    img: "/assets/assassins_bullet.jfif"
+    img: "/assets/ironman.webp"
   },
   {
     name: "The Dark Knight",
@@ -41,7 +41,7 @@ const movies = [
     director: "Christopher Nolan",
     star_cast: ["Christian Bale", "Heath Ledger", "Gary Oldman"],
     ratings: 4.8,
-    img: "/assets/titanic.jfif"
+    img: "/assets/batman.webp"
   },
   {
     name: "Pulp Fiction",
@@ -50,7 +50,7 @@ const movies = [
     director: "Quentin Tarantino",
     star_cast: ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
     ratings: 4.6,
-    img: "/assets/transformers.jfif"
+    img: "/assets/pulp.webp"
   },
   {
     name: "Forrest Gump",
@@ -59,7 +59,7 @@ const movies = [
     director: "Robert Zemeckis",
     star_cast: ["Tom Hanks", "Robin Wright", "Gary Sinise"],
     ratings: 4.7,
-    img: "/assets/mario.jpg"
+    img: "/assets/mario.webp"
   },
   {
     name: "Gladiator",
@@ -68,7 +68,7 @@ const movies = [
     director: "Ridley Scott",
     star_cast: ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
     ratings: 4.5,
-    img: "/assets/witcher.jfif"
+    img: "/assets/ironman.webp"
   }
 ];
 

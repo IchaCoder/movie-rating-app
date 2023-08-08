@@ -11,7 +11,7 @@ import Footer from "../components/footer/Footer";
 export default function Home() {
   return (
     <div className="bg-[#05161E] text-white">
-      <div className="bg-[url(/assets/mario.jpg)]  h-screen bg-cover bg-center bg-no-repeat relative">
+      <div className="bg-[url(/assets/mario.webp)]  h-screen bg-cover bg-center bg-no-repeat relative">
         <div className="max-w-[95%] sm:max-w-[90%] xl:max-w-[1200px] mx-auto ">
           <Nav />
           <div className="bg-[rgba(0,0,0,.6)] p-4 sm:p-6 text-white w-max text-lg md:text-4xl font-Bungee mt-[300px]">
@@ -24,14 +24,18 @@ export default function Home() {
       <Trending />
       <NowShowing />
       <PopularReviews />
-      <div className="mt-20 max-w-[80%] xl:max-w-[60%] mx-auto flex flex-col sm:flex-row  justify-center gap-8">
-        <img src="/like.png" alt="subscribe to trailers" />
+      <div className="mt-20 max-w-[90%] items-center xl:max-w-[60%] mx-auto flex flex-col sm:flex-row  justify-center gap-8">
+        <img
+          src="/like.png"
+          alt="subscribe to trailers"
+          className="w-[100px] h-[100px] sm:w-auto sm:h-auto"
+        />
         <div>
           <p className="mb-1">The best movie reviews in your inbox</p>
           <input
             type="text"
             placeholder="Enter your email address"
-            className="p-2 w-[350px] rounded-md"
+            className="p-2 md:w-[350px] rounded-md"
           />
           <button className="bg-[#1897C2] p-2 rounded-md ml-2">
             Subscribe
